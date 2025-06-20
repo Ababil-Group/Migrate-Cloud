@@ -18,7 +18,7 @@ const GetInTouch = () => {
               reach out, and we&apos;ll explain everything in detail.
             </p>
 
-            <div className="space-y-2">
+            <div className="space-y-4">
               <div className="flex items-center justify-start gap-2">
                 <div>
                   <FaEnvelope className="text-xl text-primary" />
@@ -26,10 +26,51 @@ const GetInTouch = () => {
                 <p className="font-semibold">info@migratecloud.world</p>
               </div>
               <div className="flex items-center justify-start gap-2">
-                <div>
-                  <FaMapMarkerAlt className="text-xl text-primary" />
+                <div className="flex space-y-2">
+                  <span className="flex items-center gap-2 text-[12px] font-bold">
+                    <FaMapMarkerAlt className="text-xl text-primary" />
+                    UAE:
+                  </span>
+                  {/* <FaMapMarkerAlt className="text-xl text-primary" />
+                  <FaMapMarkerAlt className="text-xl text-primary" /> */}
                 </div>
-                <p className="font-semibold">Business Bay, Dubai, UAE</p>
+                <div className="flex space-y-2">
+                  <p className="text-[12px] font-semibold">
+                    Level 5, One JLT Tower 1 - Jumeirah Lake Towers - Dubai -
+                    United Arab Emirates
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-center justify-start gap-2">
+                <div className="flex space-y-2">
+                  <span className="flex items-center gap-2 text-[12px] font-bold">
+                    <FaMapMarkerAlt className="text-xl text-primary" />
+                    UK:
+                  </span>
+                  {/* <FaMapMarkerAlt className="text-xl text-primary" />
+                  <FaMapMarkerAlt className="text-xl text-primary" /> */}
+                </div>
+                <div className="flex space-y-2">
+                  <p className="text-[12px] font-semibold">
+                    15 Friars Street, Ipswich, Suffolk, England, IP1 1TD
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-center justify-start gap-2">
+                <div className="flex space-y-2">
+                  <span className="flex items-center gap-2 text-[12px] font-bold">
+                    <FaMapMarkerAlt className="text-xl text-primary" />
+                    South Africa:
+                  </span>
+                  {/* <FaMapMarkerAlt className="text-xl text-primary" />
+                  <FaMapMarkerAlt className="text-xl text-primary" /> */}
+                </div>
+                <div className="flex space-y-2">
+                  <p className="text-[12px] font-semibold">
+                    Matroosfontein, Cape Town, 7490, South Africa
+                  </p>
+                </div>
               </div>
             </div>
 
