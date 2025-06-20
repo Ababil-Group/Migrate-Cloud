@@ -4,7 +4,7 @@ const BrandLogos = () => {
   return (
     <section className="py-10 pb-20">
       <div className="container">
-        <div className="mx-auto max-w-[1000px] grid grid-cols-1 gap-10 md:grid-cols-3 sm:grid-cols-1 lg:grid-cols-5">
+        <div className="mx-auto grid max-w-[1000px] grid-cols-1 gap-10 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5">
           <div>
             <Image
               className="h-auto w-full"
