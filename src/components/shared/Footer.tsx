@@ -56,10 +56,10 @@ const Footer = () => {
         </p>
 
         <div className="flex items-center justify-end gap-2 text-2xl text-white">
-          <Link href="https://www.facebook.com/migratecloud6061/">
+          <Link href="https://www.facebook.com/MigrateCloudofficial">
             <FaFacebookSquare />
           </Link>
-          <Link href="https://www.instagram.com/">
+          <Link href="https://www.instagram.com/migratecloud6/">
             <FaInstagram />
           </Link>
           <Link href="https://x.com/MigrateCloud01">
@@ -71,7 +71,7 @@ const Footer = () => {
           <Link href="https://ro.pinterest.com/migratecloud0/">
             <FaPinterest />
           </Link>
-          <Link href="https://www.tiktok.com/@migratecloud25">
+          <Link href="www.tiktok.com/@migratecloud25">
             <FaTiktok />
           </Link>
           <Link href="https://www.youtube.com/@MigrateCloud25">
