@@ -71,7 +71,7 @@ const Footer = () => {
           <Link href="https://ro.pinterest.com/migratecloud0/">
             <FaPinterest />
           </Link>
-          <Link href="www.tiktok.com/@migratecloud25">
+          <Link href="https://www.tiktok.com/@migratecloud25">
             <FaTiktok />
           </Link>
           <Link href="https://www.youtube.com/@MigrateCloud25">
