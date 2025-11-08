@@ -26,7 +26,7 @@ const TopBar = () => {
             <FaEnvelope />
           </div>
           <Link href="mailto:info@migratecloud.world">
-            info@migratecloud.world
+            info@migratecloud.eu
           </Link>
         </div>
 
