@@ -23,7 +23,7 @@ const GetInTouch = () => {
                 <div>
                   <FaEnvelope className="text-xl text-primary" />
                 </div>
-                <p className="font-semibold">info@migratecloud.world</p>
+                <p className="font-semibold">info@migratecloud.eu</p>
               </div>
               <div className="flex items-center justify-start gap-2">
                 <div className="flex space-y-2">
