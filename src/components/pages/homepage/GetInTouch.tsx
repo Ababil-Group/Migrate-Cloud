@@ -1,5 +1,5 @@
 import FadeInLeftWithSlowBounce from "@/animation_wrappers/FadeInLeftWithSlowBounce";
-import FadeInRightWithSlowBounce from "@/animation_wrappers/FadeInLeftWithSlowBounce";
+import FadeInRightWithSlowBounce from "@/animation_wrappers/FadeInRightWithSlowBounce ";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -19,177 +19,102 @@ const GetInTouch = () => {
             </p>
 
             {/* ==== CONTACT DETAILS ==== */}
-            <div className="space-y-4">
+            <div className="w-full space-y-4">
               {/* Email */}
-              <div className="flex items-center justify-start gap-2">
+              <div className="flex items-center gap-2">
                 <FaEnvelope className="text-xl text-primary" />
                 <p className="font-semibold">info@migratecloud.eu</p>
               </div>
 
-              {/* UAE */}
-              <div className="flex items-start gap-2">
-                <span className="flex items-center gap-2 text-[12px] font-bold">
-                  <FaMapMarkerAlt className="text-xl text-primary" />
-                  UAE:
-                </span>
-                <p className="text-[12px] font-semibold">
-                  Level 5, One JLT Tower 1 - Jumeirah Lake Towers - Dubai -
-                  United Arab Emirates
-                </p>
-              </div>
+              {/* Address list */}
+              {[
+                {
+                  country: "UAE",
+                  address:
+                    "Level 5, One JLT Tower 1 - Jumeirah Lake Towers - Dubai - United Arab Emirates",
+                },
+                {
+                  country: "UK",
+                  address:
+                    "15 Friars Street, Ipswich, Suffolk, England, IP1 1TD",
+                },
+                {
+                  country: "South Africa",
+                  address: "Matroosfontein, Cape Town, 7490, South Africa",
+                },
+                {
+                  country: "Bangladesh",
+                  address:
+                    "House: 12, Road: 3, Sonargaon Janapath Road, Uttara, Sector: 12, Dhaka",
+                },
+                {
+                  country: "Nepal",
+                  address: "Bagbazar, Kathmandu 44600",
+                },
+                {
+                  country: "Sri Lanka",
+                  address:
+                    "CBD Business Centre, 41 Janadhipathi Mawatha, Colombo",
+                },
+                {
+                  country: "India",
+                  address:
+                    "A M Business Centre, 4610 Main Bazar Rd, near ICICI ATM, Shora Kothi, Kaseru Walan, Paharganj, New Delhi, Delhi 110055",
+                },
+                {
+                  country: "Pakistan",
+                  address: "Plot No. 08, I 8 Markaz, I-8, Islamabad",
+                },
+                {
+                  country: "Kuwait",
+                  address:
+                    "Nouf Tower, Sharq Block, Jaber Al-Mubarak St, Kuwait City 15300, Kuwait",
+                },
+                {
+                  country: "Malaysia",
+                  address:
+                    "Jalan Kiara, Mont Kiara, 50480, Kuala Lumpur, Wilayah Persekutuan, Kuala Lumpur, Malaysia",
+                },
+                {
+                  country: "Oman",
+                  address:
+                    "Grand Business Center, Building No. 4, Muscat Grand Mall, Dauhat Al Adab St, South 136, Oman",
+                },
+                {
+                  country: "Qatar",
+                  address:
+                    "Barwa Towers, C Ring Road, Al Saad Road, Doha, Qatar",
+                },
+                {
+                  country: "Saudi Arabia",
+                  address:
+                    "Level 6, North Wing, Gate D, Al Akaria Plaza, Riyadh, Saudi Arabia",
+                },
+                {
+                  country: "Singapore",
+                  address: "10 Pasir Panjang Rd, Singapore 117438",
+                },
+              ].map((item, index) => (
+                <div
+                  key={index}
+                  className="flex w-full items-start gap-2 text-[12px]"
+                >
+                  {/* Left side (icon + country) */}
+                  <div className="flex min-w-[120px] items-start gap-2 font-bold">
+                    <FaMapMarkerAlt className="shrink-0 text-xl text-primary" />
+                    <span>{item.country}:</span>
+                  </div>
 
-              {/* UK */}
-              <div className="flex items-start gap-2">
-                <span className="flex items-center gap-2 text-[12px] font-bold">
-                  <FaMapMarkerAlt className="text-xl text-primary" />
-                  UK:
-                </span>
-                <p className="text-[12px] font-semibold">
-                  15 Friars Street, Ipswich, Suffolk, England, IP1 1TD
-                </p>
-              </div>
-
-              {/* South Africa */}
-              <div className="flex items-start gap-2">
-                <span className="flex items-center gap-2 text-[12px] font-bold">
-                  <FaMapMarkerAlt className="text-xl text-primary" />
-                  South Africa:
-                </span>
-                <p className="text-[12px] font-semibold">
-                  Matroosfontein, Cape Town, 7490, South Africa
-                </p>
-              </div>
-
-              {/* Bangladesh */}
-              <div className="flex items-start gap-2">
-                <span className="flex items-center gap-2 text-[12px] font-bold">
-                  <FaMapMarkerAlt className="text-xl text-primary" />
-                  Bangladesh:
-                </span>
-                <p className="text-[12px] font-semibold">
-                  House: 12, Road: 3, Sonargaon Janapath Road, Uttara, Sector:
-                  12, Dhaka
-                </p>
-              </div>
-
-              {/* Nepal */}
-              <div className="flex items-start gap-2">
-                <span className="flex items-center gap-2 text-[12px] font-bold">
-                  <FaMapMarkerAlt className="text-xl text-primary" />
-                  Nepal:
-                </span>
-                <p className="text-[12px] font-semibold">
-                  Bagbazar, Kathmandu 44600
-                </p>
-              </div>
-
-              {/* Sri Lanka */}
-              <div className="flex items-start gap-2">
-                <span className="flex items-center gap-2 text-[12px] font-bold">
-                  <FaMapMarkerAlt className="text-xl text-primary" />
-                  Sri Lanka:
-                </span>
-                <p className="text-[12px] font-semibold">
-                  CBD Business Centre, 41 Janadhipathi Mawatha, Colombo
-                </p>
-              </div>
-
-              {/* India */}
-              <div className="flex items-start gap-2">
-                <span className="flex items-center gap-2 text-[12px] font-bold">
-                  <FaMapMarkerAlt className="text-xl text-primary" />
-                  India:
-                </span>
-                <p className="text-[12px] font-semibold">
-                  A M Business Centre, 4610 Main Bazar Rd, near ICICI ATM, Shora
-                  Kothi, Kaseru Walan, Paharganj, New Delhi, Delhi 110055
-                </p>
-              </div>
-
-              {/* Pakistan */}
-              <div className="flex items-start gap-2">
-                <span className="flex items-center gap-2 text-[12px] font-bold">
-                  <FaMapMarkerAlt className="text-xl text-primary" />
-                  Pakistan:
-                </span>
-                <p className="text-[12px] font-semibold">
-                  Plot No. 08, I 8 Markaz, I-8, Islamabad
-                </p>
-              </div>
-
-              {/* Kuwait */}
-              <div className="flex items-start gap-2">
-                <span className="flex items-center gap-2 text-[12px] font-bold">
-                  <FaMapMarkerAlt className="text-xl text-primary" />
-                  Kuwait:
-                </span>
-                <p className="text-[12px] font-semibold">
-                  Nouf Tower, Sharq Block, Jaber Al-Mubarak St, Kuwait City
-                  15300, Kuwait
-                </p>
-              </div>
-
-              {/* Malaysia */}
-              <div className="flex items-start gap-2">
-                <span className="flex items-center gap-2 text-[12px] font-bold">
-                  <FaMapMarkerAlt className="text-xl text-primary" />
-                  Malaysia:
-                </span>
-                <p className="text-[12px] font-semibold">
-                  Jalan Kiara, Mont Kiara, 50480, Kuala Lumpur, Wilayah
-                  Persekutuan, Kuala Lumpur, Malaysia
-                </p>
-              </div>
-
-              {/* Oman */}
-              <div className="flex items-start gap-2">
-                <span className="flex items-center gap-2 text-[12px] font-bold">
-                  <FaMapMarkerAlt className="text-xl text-primary" />
-                  Oman:
-                </span>
-                <p className="text-[12px] font-semibold">
-                  Grand Business Center, Building No. 4, Muscat Grand Mall,
-                  Dauhat Al Adab St, South 136, Oman
-                </p>
-              </div>
-
-              {/* Qatar */}
-              <div className="flex items-start gap-2">
-                <span className="flex items-center gap-2 text-[12px] font-bold">
-                  <FaMapMarkerAlt className="text-xl text-primary" />
-                  Qatar:
-                </span>
-                <p className="text-[12px] font-semibold">
-                  Barwa Towers, C Ring Road, Al Saad Road, Doha, Qatar
-                </p>
-              </div>
-
-              {/* Saudi Arabia */}
-              <div className="flex items-start gap-2">
-                <span className="flex items-center gap-2 text-[12px] font-bold">
-                  <FaMapMarkerAlt className="text-xl text-primary" />
-                  Saudi Arabia:
-                </span>
-                <p className="text-[12px] font-semibold">
-                  Level 6, North Wing, Gate D, Al Akaria Plaza, Riyadh, Saudi
-                  Arabia
-                </p>
-              </div>
-
-              {/* Singapore */}
-              <div className="flex items-start gap-2">
-                <span className="flex items-center gap-2 text-[12px] font-bold">
-                  <FaMapMarkerAlt className="text-xl text-primary" />
-                  Singapore:
-                </span>
-                <p className="text-[12px] font-semibold">
-                  10 Pasir Panjang Rd, Singapore 117438
-                </p>
-              </div>
+                  {/* Right side (address) */}
+                  <p className="text-[12px] font-semibold leading-snug">
+                    {item.address}
+                  </p>
+                </div>
+              ))}
             </div>
 
             {/* Opening Hours */}
-            <p className="font-semibold">
+            <p className="pt-2 font-semibold">
               Opening hours: Mon - Fri 8:00 AM - 4:00 PM
             </p>
           </div>
