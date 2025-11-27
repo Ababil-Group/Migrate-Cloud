@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "../ui/button";
@@ -7,8 +9,12 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 import { FaBars } from "react-icons/fa6";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import MobileNav from "./MobileNav";
+import { useTranslations } from "next-intl";
+import LanguageSwitcher from "@/components/LanguageSwitcher"
 
 const Header = () => {
+  const t = useTranslations("nav");
+ 
   return (
     <header className="sticky top-0 z-50 bg-white py-2 shadow">
       <nav className="container flex items-center justify-between">
@@ -23,13 +29,16 @@ const Header = () => {
         </Link>
 
         <ul className="hidden items-center justify-center gap-7 font-semibold lg:flex">
+          
           {navlinks.map((navlink, i) => (
+            
             <li key={i} className="group relative">
+            
               <Link
                 className="inline-flex items-center transition-colors hover:text-primary"
                 href={navlink.href ? (navlink.href as Url) : "#"}
               >
-                {navlink.label} {navlink.sublinks && <MdKeyboardArrowDown />}
+                {t(navlink.key)} {navlink.sublinks && <MdKeyboardArrowDown />}
               </Link>
 
               {/* Dropdown for sublinks */}
@@ -41,7 +50,7 @@ const Header = () => {
                         className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
                         href={sublink.href}
                       >
-                        {sublink.label}
+                        {t(sublink.key)}
                       </Link>
                     </li>
                   ))}
@@ -50,9 +59,9 @@ const Header = () => {
             </li>
           ))}
         </ul>
-
+        <LanguageSwitcher/>
         <Link href="/contact">
-          <Button className="hidden lg:inline-block">Contact</Button>
+          <Button className="hidden lg:inline-block">{t("contact")}</Button>
         </Link>
 
         <Sheet>

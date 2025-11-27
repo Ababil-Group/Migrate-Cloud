@@ -1,51 +1,47 @@
-export const navlinks = [
+// nav.config.ts
+
+export type NavItem = {
+  key: string; // i18n key inside "nav"
+  href?: string;
+  sublinks?: { key: string; href: string }[];
+};
+
+export const navlinks: NavItem[] = [
+  { key: "home", href: "/" },
+  { key: "howToHire", href: "/how-to-hire-international-talent" },
+
   {
-    label: "Home",
-    href: "/",
-  },
-  {
-    label: "How to hire international talent?",
-    href: "/how-to-hire-international-talent",
-  },
-  {
-    label: "Solutions",
+    key: "solutions.label", // <-- label key
     sublinks: [
       {
-        label: "Navigating immigration laws",
+        key: "solutions.navigating",
         href: "/solutions/navigating-immigration-laws",
       },
       {
-        label: "Employment of seasonal workers",
+        key: "solutions.seasonal",
         href: "/solutions/employment-of-seasonal-workers",
       },
       {
-        label: "Employment of construction workers",
+        key: "solutions.construction",
         href: "/solutions/employment-of-construction-workers",
       },
       {
-        label: "Employment of Medical Workers",
+        key: "solutions.medical",
         href: "/solutions/employment-of-medical-workers",
       },
     ],
   },
+
   {
-    label: "Services",
+    key: "services.label", // <-- label key
     href: "/services",
     sublinks: [
-      {
-        label: "Employment administration",
-        href: "/services/employment-administration",
-      },
-      { label: "Full-Service HR", href: "/services/full-service-hr" },
-      { label: "Employment Mediation", href: "/services/employment-mediation" },
-      {
-        label: "Assignment of Workers",
-        href: "/services/assignment-of-workers",
-      },
+      { key: "services.admin", href: "/services/employment-administration" },
+      { key: "services.fullHR", href: "/services/full-service-hr" },
+      { key: "services.mediation", href: "/services/employment-mediation" },
+      { key: "services.assignment", href: "/services/assignment-of-workers" },
     ],
   },
-  {
-    label: "About us",
-    href: "/about-us",
-  },
+
+  { key: "about", href: "/about-us" },
 ];

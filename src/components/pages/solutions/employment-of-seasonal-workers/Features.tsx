@@ -1,36 +1,35 @@
+import { useTranslations } from "next-intl";
+
 const Features = () => {
+  const t = useTranslations("seasonal.features");
   return (
     <section className="py-20">
       <div className="container grid max-w-[1100px] grid-cols-1 divide-y lg:grid-cols-3 lg:divide-x lg:divide-y-0">
         {/* card */}
         <div className="space-y-2 p-10">
           <h4 className="text-center text-2xl font-bold">
-            Access to Qualified Talent
+           {t("title1")}
           </h4>
           <p className="text-center">
-            At MigrateCloud, we offer a database of pre-verified candidates,
-            minimizing the risks associated with hiring. Our process ensures
-            access to skilled workers tailored to your needs.
+            {t("desc1")}
           </p>
         </div>
         {/* card */}
         <div className="space-y-2 p-10">
           <h4 className="text-center text-2xl font-bold">
-            Flexible Workforce Solutions
+            {t("title2")}
           </h4>
           <p className="text-center">
-            We understand the importance of flexible workforce management,
-            allowing you to adapt to changing demands efficiently.
+            {t("desc2")}
           </p>
         </div>
         {/* card */}
         <div className="space-y-2 p-10">
           <h4 className="text-center text-2xl font-bold">
-            Efficient Recruitment Process
+            {t("title3")}
           </h4>
           <p className="text-center">
-            Our streamlined recruitment process accelerates finding, managing,
-            and hiring workers, ensuring you meet your workforce needs promptly.
+            {t("desc3")}
           </p>
         </div>
       </div>

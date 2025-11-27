@@ -1,4 +1,6 @@
-import "./globals.css";
+import Header from "@/components/shared/Header";
+import Footer from "@/components/shared/Footer";
+import TopBar from "@/components/shared/TopBar";
 import { Montserrat } from "next/font/google";
 
 const montserrat = Montserrat({
@@ -6,7 +8,7 @@ const montserrat = Montserrat({
   subsets: ["latin"],
 });
 
-export default function RootLayout({
+export default function CommonLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
@@ -16,7 +18,10 @@ export default function RootLayout({
       <body
         className={`${montserrat.className} flex min-h-screen flex-col antialiased`}
       >
+        <TopBar />
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

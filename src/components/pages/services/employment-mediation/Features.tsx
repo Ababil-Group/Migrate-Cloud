@@ -1,37 +1,37 @@
+import { useTranslations } from "next-intl";
+
 const Features = () => {
+  const t = useTranslations("employmentmediation.features");
   return (
     <section className="py-20">
       <div className="container grid max-w-[1100px] grid-cols-1 divide-y lg:grid-cols-3 lg:divide-x lg:divide-y-0">
         {/* card */}
         <div className="space-y-2 p-10">
           <h4 className="text-center text-2xl font-bold">
-            Access to Skilled Workers
+            {t("title1")}
           </h4>
           <p className="text-center">
-            We proactively search and handpick potential candidates, utilizing
-            our vast networks and databases.
+            {t("desc1")}
           </p>
         </div>
 
         {/* card */}
         <div className="space-y-2 p-10">
           <h4 className="text-center text-2xl font-bold">
-            Streamlined Recruitment Process
+            {t("title2")}
           </h4>
           <p className="text-center">
-            We ensure the recruitment process is conducted with efficiency and
-            precision.
+            {t("desc2")}
           </p>
         </div>
 
         {/* card */}
         <div className="space-y-2 p-10">
           <h4 className="text-center text-2xl font-bold">
-            Expert Guidance and Support at Every Stage
+            {t("title3")}
           </h4>
           <p className="text-center">
-            We provide expert insights, ensuring informed decisions and
-            successful outcomes.
+            {t("desc3")}
           </p>
         </div>
       </div>

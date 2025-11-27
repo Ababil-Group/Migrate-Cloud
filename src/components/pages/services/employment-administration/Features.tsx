@@ -1,28 +1,29 @@
+import { useTranslations } from "next-intl";
+
 const Features = () => {
+  const t = useTranslations("administration.features");
   return (
     <section className="py-20">
       <div className="container grid max-w-[1100px] grid-cols-1 divide-y lg:grid-cols-3 lg:divide-x lg:divide-y-0">
         {/* card */}
         <div className="space-y-2 p-10">
-          <h4 className="text-center text-2xl font-bold">Save Time & Costs</h4>
+          <h4 className="text-center text-2xl font-bold">{t("title1")}</h4>
           <p className="text-center">
-            Eliminate the burden of complex administrative procedures and focus
-            on your core business.
+            {t("desc1")}
           </p>
         </div>
         {/* card */}
         <div className="space-y-2 p-10">
-          <h4 className="text-center text-2xl font-bold">Expert Assistance</h4>
+          <h4 className="text-center text-2xl font-bold">{t("title2")}</h4>
           <p className="text-center">
-            Our team ensures a seamless process while adhering to the latest
-            legal requirements.
+            {t("desc2")}
           </p>
         </div>
         {/* card */}
         <div className="space-y-2 p-10">
-          <h4 className="text-center text-2xl font-bold">Tailored Solutions</h4>
+          <h4 className="text-center text-2xl font-bold">{t("title3")}</h4>
           <p className="text-center">
-            We customize our services to meet your specific hiring needs.
+            {t("desc3")}
           </p>
         </div>
       </div>

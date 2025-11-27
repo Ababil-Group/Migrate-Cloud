@@ -1,7 +1,9 @@
 import { Button } from "@/components/ui/button";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 const EmploymentMediation = () => {
+  const t = useTranslations("construction.mediation");
   return (
     <section className="py-10">
       <div className="container grid grid-cols-1 items-center gap-20 lg:grid-cols-2">
@@ -15,18 +17,13 @@ const EmploymentMediation = () => {
           />
         </div>
         <div className="space-y-5">
-          <h2 className="text-4xl font-bold">Employment Mediation</h2>
+          <h2 className="text-4xl font-bold">{t("title")}</h2>
 
           <p>
-            Through our employment mediation services, we assist companies in
-            tapping into a vast pool of skilled workers. We address the
-            challenges faced in securing a qualified workforce. By enabling the
-            employment of foreign talent and providing all-encompassing
-            recruitment services, we play a pivotal role in meeting the
-            workforce demands across various industries in Europe. Learn More
+            {t("desc")}
           </p>
 
-          <Button>Learn More</Button>
+          <Button>{t("btn")}</Button>
         </div>
       </div>
     </section>

@@ -1,65 +1,57 @@
+import { useTranslations } from "next-intl";
 import { FaRegKeyboard } from "react-icons/fa";
 import { FaRegListAlt } from "react-icons/fa";
 import { FaRegNewspaper } from "react-icons/fa";
 import { FaRegObjectUngroup } from "react-icons/fa";
 
 const Advantages = () => {
+  const t = useTranslations("assignmentworkers.advantages");
   return (
     <section className="bg-[#F5F5F5] py-20">
       <div className="container grid grid-cols-1 items-center gap-20 lg:grid-cols-2">
         <div className="space-y-5">
           <h2 className="text-4xl font-bold">
-            What are the advantages of hiring through an agency?
+            {t("title1")}
           </h2>
           <p>
-            By utilizing our agency work services, we offer flexible solutions
-            for filling short- or long-term employee absences, optimizing
-            seasonal workforce needs, and meeting specific project requirements.
-            Additionally, we manage all administrative tasks, ensuring the
-            process is smooth and efficient.
+            {t("desc1")}
           </p>
         </div>
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-2">
           {/* grid item  */}
           <div className="flex flex-col items-center justify-start gap-2 rounded-md bg-white p-10 shadow-lg">
             <FaRegKeyboard className="text-5xl" />
-            <h5 className="text-center text-xl font-bold">Expert Guidance</h5>
+            <h5 className="text-center text-xl font-bold">{t("title2")}</h5>
             <p className="text-center">
-              We provide professional support and advice throughout the
-              recruitment process, ensuring you make well-informed decisions.
+              {t("desc2")}
             </p>
           </div>
           {/* grid item  */}
           <div className="flex flex-col items-center justify-start gap-2 rounded-md bg-white p-10 shadow-lg">
             <FaRegListAlt className="text-5xl" />
             <h5 className="text-center text-xl font-bold">
-              Saving Time and Resources
+              {t("title3")}
             </h5>
             <p className="text-center">
-              We take care of candidate searches, negotiations, and
-              administrative tasks, allowing you to focus on the core areas of
-              your business.
+              {t("desc3")}
             </p>
           </div>
           {/* grid item  */}
           <div className="flex flex-col items-center justify-start gap-2 rounded-md bg-white p-10 shadow-lg">
             <FaRegNewspaper className="text-5xl" />
             <h5 className="text-center text-xl font-bold">
-              Access to a Wider Market
+              {t("title4")}
             </h5>
             <p className="text-center">
-              We give you access to a diverse pool of candidates from across the
-              globe through our established network.
+              {t("desc4")}
             </p>
           </div>
           {/* grid item  */}
           <div className="flex flex-col items-center justify-start gap-2 rounded-md bg-white p-10 shadow-lg">
             <FaRegObjectUngroup className="text-5xl" />
-            <h5 className="text-center text-xl font-bold">Risk Reduction</h5>
+            <h5 className="text-center text-xl font-bold"> {t("title5")}</h5>
             <p className="text-center">
-              We ensure security by thoroughly vetting candidates&apos;
-              qualifications and references, reducing the risk of unsuitable
-              hires and non-compliance with regulations.
+              {t("desc5")}
             </p>
           </div>
         </div>

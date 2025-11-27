@@ -6,9 +6,11 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 const FAQ = () => {
+  const t = useTranslations("faq");
   return (
     <section className="py-20">
       <div className="container grid max-w-[1100px] grid-cols-1 items-center gap-20 lg:grid-cols-2">
@@ -22,76 +24,54 @@ const FAQ = () => {
           />
         </FadeInLeftWithSlowBounce>
         <FadeInRightWithSlowBounce className="space-y-7">
-          <h2 className="text-4xl font-bold">Frequently Asked Questions</h2>
+          <h2 className="text-4xl font-bold">{t("title")}</h2>
           <Accordion type="single" collapsible>
             <AccordionItem value="item-1">
               <AccordionTrigger>
-                Who is responsible for providing accommodation?
+                {t("faq1")}
               </AccordionTrigger>
               <AccordionContent>
-                Employers are required to offer suitable and comfortable
-                accommodation for their workers.
+                {t("ans1")}
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
               <AccordionTrigger>
-                How long does it take for workers to arrive?
+                {t("faq2")}
               </AccordionTrigger>
               <AccordionContent>
-                The process typically takes a minimum of three months. This
-                timeframe includes a two-week period for obtaining a work
-                permit, followed by at least six weeks for visa processing.
+                {t("ans2")}
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3">
               <AccordionTrigger>
-                What happens if we are not satisfied with an employee?
+                {t("faq3")}
               </AccordionTrigger>
               <AccordionContent>
-                If an employee does not meet your expectations, you have the
-                right to terminate their contract as per standard employment
-                regulations. In such cases, we assist the worker in securing
-                alternative employment. If no suitable opportunities arise, we
-                facilitate their return to their home country.
+                {t("ans3")}
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-4">
               <AccordionTrigger>
-                Can we apply for work permits longer than 1 year?
+                {t("faq4")}
               </AccordionTrigger>
               <AccordionContent>
-                Work permits are generally issued for one year, while seasonal
-                workers can obtain permits for up to six months. Due to
-                bureaucratic procedures, securing a work permit and visa
-                typically takes between two to three months.
+                {t("ans4")}
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-5">
               <AccordionTrigger>
-                How can work permits be renewed?
+                {t("faq5")}
               </AccordionTrigger>
               <AccordionContent>
-                Renewal applications must be submitted at least one month before
-                the permit expires. The process requires the employee’s
-                passport, previous ID card, recent photographs (for the new ID),
-                a statement from the accommodation provider, and a
-                company-issued declaration confirming continued accommodation at
-                the designated location.
+                {t("ans5")}
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-6">
               <AccordionTrigger>
-                Are there restrictions on hiring foreign workers?
+                {t("faq6")}
               </AccordionTrigger>
               <AccordionContent>
-                Certain professions in Europe are classified as high-demand,
-                allowing employers to apply for work permits without undergoing
-                a labor market test. The official list of these professions is
-                available through the relevant authorities. For positions not
-                included in the shortage occupation list, a Labor Market Test is
-                required. This process lasts for two weeks and assesses the
-                availability of local workers. If a labor shortage is confirmed,
-                applications for foreign workers can proceed accordingly.
+                {t("ans6")}
               </AccordionContent>
             </AccordionItem>
           </Accordion>

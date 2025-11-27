@@ -1,35 +1,37 @@
+import { useTranslations } from "next-intl";
+
 const Features = () => {
+  const t = useTranslations("construction.features");
   return (
     <section className="py-20">
       <div className="container grid max-w-[1100px] grid-cols-1 divide-y lg:grid-cols-3 lg:divide-x lg:divide-y-0">
         {/* card */}
         <div className="space-y-2 p-10">
           <h4 className="text-center text-2xl font-bold">
-            Access to Responsible Workers
+            {t("title1")}
           </h4>
           <p className="text-center">
-            Gain access to a thoroughly vetted and skilled workforce.
+            {t("desc1")}
           </p>
         </div>
 
         {/* card */}
         <div className="space-y-2 p-10">
           <h4 className="text-center text-2xl font-bold">
-            Preventing Project Delays
+            {t("title2")}
           </h4>
           <p className="text-center">
-            We ensure that projects are completed on schedule with a capable
-            workforce.
+            {t("desc2")}
           </p>
         </div>
 
         {/* card */}
         <div className="space-y-2 p-10">
           <h4 className="text-center text-2xl font-bold">
-            Efficient and Streamlined Recruitment Process
+            {t("title3")}
           </h4>
           <p className="text-center">
-            We expedite the process of sourcing, managing, and hiring workers.
+            {t("desc3")}
           </p>
         </div>
       </div>

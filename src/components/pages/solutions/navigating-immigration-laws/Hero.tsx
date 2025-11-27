@@ -1,20 +1,20 @@
 import { Button } from "@/components/ui/button";
+import { useTranslations } from "next-intl";
 import Link from "next/link";
 
 const Hero = () => {
+  const t = useTranslations("navigating.hero");
   return (
     <section className="py-20">
       <div className="container flex max-w-[800px] flex-col items-center justify-center gap-5">
         <h1 className="text-center text-5xl font-bold">
-          Navigating Immigration Laws for Employers
+          {t("title")}
         </h1>
         <p className="text-center">
-          Adhering to immigration laws can be complex due to the regulatory
-          framework governing the employment of foreign workers. This is where
-          our expertise helps streamline the process.
+          {t("desc")}
         </p>
         <Link href="/contact">
-          <Button>Contact us</Button>
+          <Button>{t("btn")}</Button>
         </Link>
       </div>
     </section>

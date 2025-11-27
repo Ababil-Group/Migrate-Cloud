@@ -1,17 +1,18 @@
 import { Button } from "@/components/ui/button";
+import { useTranslations } from "next-intl";
 import Link from "next/link";
 
 const Hero = () => {
+  const t = useTranslations("fullservicehr.hero");
   return (
     <section className="py-20">
       <div className="container flex max-w-[800px] flex-col items-center justify-center gap-5">
-        <h1 className="text-center text-5xl font-bold">Full-service HR</h1>
+        <h1 className="text-center text-5xl font-bold">{t("title")}</h1>
         <p className="text-center">
-          For comprehensive human resources management support, from recruitment
-          to seamless employee integration.
+          {t("desc")}
         </p>
         <Link href="/contact">
-          <Button>Contact us</Button>
+          <Button>{t("btn")}</Button>
         </Link>
       </div>
     </section>

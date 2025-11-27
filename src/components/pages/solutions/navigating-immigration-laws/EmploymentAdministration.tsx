@@ -1,7 +1,9 @@
 import { Button } from "@/components/ui/button";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 const EmploymentAdministration = () => {
+  const t = useTranslations("navigating.employment");
   return (
     <section className="py-10">
       <div className="container grid grid-cols-1 items-center gap-20 lg:grid-cols-2">
@@ -15,16 +17,13 @@ const EmploymentAdministration = () => {
           />
         </div>
         <div className="space-y-5">
-          <h2 className="text-4xl font-bold">Employment Administration</h2>
+          <h2 className="text-4xl font-bold">{t("title")}</h2>
 
           <p>
-            Our Employment Administration Service manages all administrative
-            procedures related to hiring international professionals. We ensure
-            compliance with labor and immigration laws, streamlining the entire
-            process for your company.
+            {t("desc")}
           </p>
 
-          <Button>Learn More</Button>
+          <Button>{t("btn")}</Button>
         </div>
       </div>
     </section>

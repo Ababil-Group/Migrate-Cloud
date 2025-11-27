@@ -3,19 +3,20 @@ import FadeInRightWithSlowBounce from "@/animation_wrappers/FadeInRightWithSlowB
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import { useTranslations } from "next-intl";
 import { FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
 const GetInTouch = () => {
+  const t = useTranslations("contactus")
   return (
     <section className="py-20">
       <div className="container grid max-w-[1100px] grid-cols-1 gap-10 lg:grid-cols-2">
         {/* ==== LEFT SECTION ==== */}
         <FadeInLeftWithSlowBounce className="rounded-3xl bg-[#F3F6F3] p-8">
           <div className="flex h-full flex-col items-start justify-center gap-5">
-            <h2 className="text-4xl font-bold">Contact</h2>
+            <h2 className="text-4xl font-bold">{t("title")}</h2>
             <p className="font-semibold">
-              For any questions you didn&apos;t find an answer to, feel free to
-              reach out, and we&apos;ll explain everything in detail.
+              {t("subtitle")}
             </p>
 
             {/* ==== CONTACT DETAILS ==== */}
@@ -115,7 +116,7 @@ const GetInTouch = () => {
 
             {/* Opening Hours */}
             <p className="pt-2 font-semibold">
-              Opening hours: Mon - Fri 8:00 AM - 4:00 PM
+              {t("time")}
             </p>
           </div>
         </FadeInLeftWithSlowBounce>

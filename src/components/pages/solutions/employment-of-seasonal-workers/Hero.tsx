@@ -1,21 +1,20 @@
 import { Button } from "@/components/ui/button";
+import { useTranslations } from "next-intl";
 import Link from "next/link";
 
 const Hero = () => {
+  const t = useTranslations("seasonal.hero");
   return (
     <section className="py-20">
       <div className="container flex max-w-[800px] flex-col items-center justify-center gap-5">
         <h1 className="text-center text-5xl font-bold">
-          Employment of Seasonal Workers
+          {t("title")}
         </h1>
         <p className="text-center">
-          At MigrateCloud, we specialize in recruiting seasonal workers across
-          various professions, including waiters, bartenders, cooks, assistant
-          kitchen staff, maids, cleaners, and receptionists. Our expertise
-          ensures that you can find the right talent for your needs.
+          {t("desc")}
         </p>
         <Link href="/contact">
-          <Button>Contact us</Button>
+          <Button>{t("btn")}</Button>
         </Link>
       </div>
     </section>

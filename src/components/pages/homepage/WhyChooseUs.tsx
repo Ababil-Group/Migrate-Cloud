@@ -1,21 +1,21 @@
 import FadeInLeftWithSlowBounce from "@/animation_wrappers/FadeInLeftWithSlowBounce";
 import FadeInRightWithSlowBounce from "@/animation_wrappers/FadeInRightWithSlowBounce ";
 import { Button } from "@/components/ui/button";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 import { IoIosCheckmarkCircle } from "react-icons/io";
 
 const WhyChooseUs = () => {
+  const t = useTranslations("whychooseus");
   return (
     <section className="py-10">
       <div className="container">
         <div className="mx-auto grid max-w-[1000px] grid-cols-1 items-center gap-20 lg:grid-cols-2">
           <FadeInLeftWithSlowBounce className="space-y-5">
-            <h2 className="text-4xl font-bold">Why Choose Us?</h2>
+            <h2 className="text-4xl font-bold">{t("title")}</h2>
             <p className="">
-              MigrateCloud is your trusted partner for hiring international
-              talent. Our experts are ready to simplify the immigration process
-              and ensure successful outcomes.
+              {t("desc")}
             </p>
 
             {/* lists */}
@@ -25,48 +25,48 @@ const WhyChooseUs = () => {
                 <div>
                   <IoIosCheckmarkCircle className="text-lg text-primary" />
                 </div>
-                <p className="font-medium">Free consultations</p>
+                <p className="font-medium">{t("item1")}</p>
               </div>
               {/* list item  */}
               <div className="flex items-center justify-start gap-1">
                 <div>
                   <IoIosCheckmarkCircle className="text-lg text-primary" />
                 </div>
-                <p className="font-medium">High-quality candidates</p>
+                <p className="font-medium">{t("item2")}</p>
               </div>
               {/* list item  */}
               <div className="flex items-center justify-start gap-1">
                 <div>
                   <IoIosCheckmarkCircle className="text-lg text-primary" />
                 </div>
-                <p className="font-medium">Quick response times</p>
+                <p className="font-medium">{t("item3")}</p>
               </div>
               {/* list item  */}
               <div className="flex items-center justify-start gap-1">
                 <div>
                   <IoIosCheckmarkCircle className="text-lg text-primary" />
                 </div>
-                <p className="font-medium">Long-term partnerships</p>
+                <p className="font-medium">{t("item4")}</p>
               </div>
               {/* list item  */}
               <div className="flex items-center justify-start gap-1">
                 <div>
                   <IoIosCheckmarkCircle className="text-lg text-primary" />
                 </div>
-                <p className="font-medium">24/7 availability</p>
+                <p className="font-medium">{t("item5")}</p>
               </div>
               {/* list item  */}
               <div className="flex items-center justify-start gap-1">
                 <div>
                   <IoIosCheckmarkCircle className="text-lg text-primary" />
                 </div>
-                <p className="font-medium">Verified professionals</p>
+                <p className="font-medium">{t("item6")}</p>
               </div>
             </div>
 
             <div>
               <Link href="/contact">
-                <Button className="bg-secondary">Contact us</Button>
+                <Button className="bg-secondary">{t("btn")}</Button>
               </Link>
             </div>
           </FadeInLeftWithSlowBounce>

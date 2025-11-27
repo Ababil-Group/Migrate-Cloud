@@ -1,4 +1,4 @@
-import Advantages from "@/components/pages/services/employment-administration/Advantages";
+import Advantages from "@/components/pages/services/assignment-of-workers/Advantages";
 import FAQ from "@/components/pages/services/employment-administration/FAQ";
 import Features from "@/components/pages/services/employment-administration/Features";
 import Hero from "@/components/pages/services/employment-administration/Hero";

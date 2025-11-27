@@ -4,76 +4,59 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { useTranslations } from "next-intl";
 
 const FAQ = () => {
+  const t = useTranslations("administration.faq");
   return (
     <section className="py-20">
       <div className="container max-w-[1000px]">
-        <h2 className="mb-5 text-4xl font-bold">Frequently Asked Questions</h2>
+        <h2 className="mb-5 text-4xl font-bold">{t("title")}</h2>
 
         <Accordion className="border" type="single" collapsible>
           <AccordionItem value="item-1">
             <AccordionTrigger className="px-5">
-              What does the process of hiring foreign workers look like?
+              {t("queation1")}
             </AccordionTrigger>
             <AccordionContent className="px-5">
-              To hire foreign workers for positions across Europe, the following
-              essential steps must be followed:
+              {t("ans1.title1")}
               <ul className="list-disc pl-5">
+                <li>{t("ans1.item1")}</li>
+                <li>{t("ans1.item2")}</li>
                 <li>
-                  Secure a work permit for the foreign employee through the
-                  appropriate immigration or employment authority.
+                  {t("ans1.item3")}
                 </li>
                 <li>
-                  Submit an application for the worker&apos;s residence permit.
-                </li>
-                <li>
-                  Register the foreign employee with relevant tax and social
-                  security authorities.
-                </li>
-                <li>
-                  Ensure adherence to all applicable labor and immigration
-                  regulations.
+                  {t("ans1.item4")}
                 </li>
               </ul>
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
             <AccordionTrigger className="px-5">
-              What documents are required for the employment of foreign workers?
+              {t("queation2")}
             </AccordionTrigger>
             <AccordionContent className="px-5">
-              The necessary documentation includes:
+              {t("ans2.title2")}
               <ul className="list-disc pl-5">
-                <li>Work permit issued by the relevant authority.</li>
-                <li>Employment contract or formal agreement.</li>
-                <li>Valid passport or identification of the foreign worker.</li>
-                <li>Proof of accommodation for the worker.</li>
-                <li>Health insurance coverage for the worker.</li>
-                <li>Proof of payment for required administrative fees.</li>
+                <li>{t("ans2.item1")}</li>
+                <li>{t("ans2.item2")}</li>
+                <li>{t("ans2.item3")}</li>
+                <li>{t("ans2.item4")}</li>
+                <li>{t("ans2.item5")}</li>
               </ul>
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-3">
             <AccordionTrigger className="px-5">
-              How can administrative assistance services help employers navigate
-              the process of hiring foreign workers in the EU?
+              {t("queation3")}
             </AccordionTrigger>
             <AccordionContent className="space-y-2 px-5">
               <p>
-                Administrative assistance services play a crucial role in
-                simplifying the process of hiring foreign workers, offering
-                thorough support at every stage.
+                {t("ans3")}
               </p>
               <p>
-                We guide employers through the entire work and residence permit
-                application process, assist in preparing and submitting
-                necessary documents to the relevant authorities, and ensure full
-                compliance with legal requirements. Our services include
-                continuous advice on labor and immigration matters, while
-                streamlining administrative tasks. This approach saves employers
-                time and resources, ensuring a seamless and efficient hiring
-                process for foreign workers across Europe.
+                {t("ans4")}
               </p>
             </AccordionContent>
           </AccordionItem>
