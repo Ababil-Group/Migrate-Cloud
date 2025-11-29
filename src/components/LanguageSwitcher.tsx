@@ -232,7 +232,7 @@ export default function LanguageSwitcher() {
                   <Button
                     variant="ghost"
                     onClick={() => setOpen(false)}
-                    className="bg-red-500 text-xs text-white"
+                    className="bg-zinc-900 text-xs text-white hover:bg-zinc-500"
                   >
                     Close
                   </Button>
@@ -263,7 +263,7 @@ export default function LanguageSwitcher() {
                         {c.flag}
                       </div>
                       {isActive && (
-                        <Badge className="bg-blue-500 text-[10px] text-white">
+                        <Badge className="bg-black text-[10px] text-white">
                           Current
                         </Badge>
                       )}
