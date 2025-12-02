@@ -168,7 +168,7 @@ export default function LanguageSwitcher() {
       (c) => mapToSupportedLocale(c.preferredLocale) === currentLocale,
     );
     if (match) return match;
-    return { name: "English", flag: "🇬🇧", preferredLocale: "en" };
+    return COUNTRIES[0];
   }, [currentLocale]);
 
   const filtered = useMemo(() => {
