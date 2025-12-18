@@ -464,11 +464,11 @@
       "title3": "Focus on Business Goals",
       "desc3": " Redirect your attention to achieving strategic objectives while we  manage your HR needs."
     },
-    "mean":{
-      "title":"What Does Full-Service HR Mean?",
-      "desc1":"The Full-Service HR option provides a wide range of support that covers every aspect of the HR process, from recruitment to the smooth integration of employees within your organization.",
-      "desc2":" This all-encompassing service includes recruitment, selection procedures, administrative work, insurance concerns, accommodation, and ongoing support throughout the entire employment journey. By employing highly specialized staff with considerable experience in  employment law, this service ensures meticulous attention to detail and the identification of solutions tailored to meet a company’s specific needs.",
-      "desc3":"Outsourcing these essential HR functions offers several advantages. First, it provides access to the expertise of seasoned professionals, ensuring efficient and coordinated human resources management. Second, outsourcing allows a company to reallocate its internal resources toward core business goals, boosting productivity and advancing strategic objectives. Ultimately, the Full-Service HR option not only guarantees seamless HR operations but also enables businesses to focus on achieving their primary mission with enhanced clarity and efficiency."
+    "mean": {
+      "title": "What Does Full-Service HR Mean?",
+      "desc1": "The Full-Service HR option provides a wide range of support that covers every aspect of the HR process, from recruitment to the smooth integration of employees within your organization.",
+      "desc2": " This all-encompassing service includes recruitment, selection procedures, administrative work, insurance concerns, accommodation, and ongoing support throughout the entire employment journey. By employing highly specialized staff with considerable experience in  employment law, this service ensures meticulous attention to detail and the identification of solutions tailored to meet a company’s specific needs.",
+      "desc3": "Outsourcing these essential HR functions offers several advantages. First, it provides access to the expertise of seasoned professionals, ensuring efficient and coordinated human resources management. Second, outsourcing allows a company to reallocate its internal resources toward core business goals, boosting productivity and advancing strategic objectives. Ultimately, the Full-Service HR option not only guarantees seamless HR operations but also enables businesses to focus on achieving their primary mission with enhanced clarity and efficiency."
     },
     "whenToconsider": {
       "title": "When to Choose the Full-Service HR Option?",
@@ -488,52 +488,51 @@
       "queation3": "  What Flexibility Do We Offer in Adapting the Solution to Your Specific Company Needs?",
       "ans3": "We understand that every company has distinct HR requirements. Therefore, we offer flexibility in customizing our Full-Service HR solution to meet your unique needs, whether that involves adjusting service components, fulfilling specific requirements, or adapting to your evolving business demands."
     }
-    
   },
-  "about":{
-    "hireaforeigner":{
-      "title":"Hire a foreigner",
-      "desc":" A reliable and experienced partner in the recruitment of foreign workers. Our team of experts is dedicated to guiding you through the immigration process, ensuring a smooth and successful outcome.",
-      "btn":"Contact us"
+  "about": {
+    "hireaforeigner": {
+      "title": "Hire a foreigner",
+      "desc": " A reliable and experienced partner in the recruitment of foreign workers. Our team of experts is dedicated to guiding you through the immigration process, ensuring a smooth and successful outcome.",
+      "btn": "Contact us"
     },
-    "whoWeare":{
-      "title1":"WHO ARE WE?",
-      "title2":"International Employment Agency",
-      "desc1":"We assist our international clients in finding suitable employment opportunities, including those within Europe, by carefully matching them to positions that align with their qualifications. Additionally, we ensure that the companies we partner with not only respect but also reward their workforce fairly.",
-      "desc2":"For our employer clients, we meticulously source and secure qualified workers that meet their specific requirements, reducing concerns about labor turnover. This approach guarantees a stable workforce to meet project or seasonal needs, both locally and internationally. As a result, our clients can expect timely project delivery without unnecessary disruptions.",
-      "desc3":"We offer a comprehensive solution for recruiting and hiring high-quality talent, aiming to foster a productive and harmonious work environment for both employers and employees across the globe."
+    "whoWeare": {
+      "title1": "WHO ARE WE?",
+      "title2": "International Employment Agency",
+      "desc1": "We assist our international clients in finding suitable employment opportunities, including those within Europe, by carefully matching them to positions that align with their qualifications. Additionally, we ensure that the companies we partner with not only respect but also reward their workforce fairly.",
+      "desc2": "For our employer clients, we meticulously source and secure qualified workers that meet their specific requirements, reducing concerns about labor turnover. This approach guarantees a stable workforce to meet project or seasonal needs, both locally and internationally. As a result, our clients can expect timely project delivery without unnecessary disruptions.",
+      "desc3": "We offer a comprehensive solution for recruiting and hiring high-quality talent, aiming to foster a productive and harmonious work environment for both employers and employees across the globe."
     },
-    "WhyChoose":{
-      "title1":"Why Choose",
-      "title2":"MigrateCloud?",
-      "desc1":"Years of Expertise",
-      "desc2":" Foreign Workers Successfully Placed",
-      "desc3":"Client Satisfaction"
+    "WhyChoose": {
+      "title1": "Why Choose",
+      "title2": "MigrateCloud?",
+      "desc1": "Years of Expertise",
+      "desc2": " Foreign Workers Successfully Placed",
+      "desc3": "Client Satisfaction"
     },
-    "WhatDoWeOffer":{
-      "title1":"WHAT DO WE OFFER?",
-      "title2":" Need assistance with immigration? Our expert team is here to help",
-      "desc1":" Contact our team today to learn more about our services and take the first step towards successfully employing foreign workers.",
-      "title3":"Employment Services",
-      "btn":"Explore all services",
-      "title4":" Support in administration",
-      "desc2":"We handle all the necessary administration for employment, such as translation of documents, obtaining visas and work permits, employment contracts.",
-      "title5":" Employment Mediation",
-      "desc3":"  Save time and resources by utilizing our professional services in locating qualified workers from outside Europe.",
-      "title6":"Full-Service HR",
-      "desc4":" Comprehensive support in human resources management, starting from  recruitment through to full employee integration.",
-      "title7":"Worker Assignment Services",
-      "desc5":"  We offer worker placement for specific periods (such as projects or seasonal work) with the option to transition to permanent employment."
+    "WhatDoWeOffer": {
+      "title1": "WHAT DO WE OFFER?",
+      "title2": " Need assistance with immigration? Our expert team is here to help",
+      "desc1": " Contact our team today to learn more about our services and take the first step towards successfully employing foreign workers.",
+      "title3": "Employment Services",
+      "btn": "Explore all services",
+      "title4": " Support in administration",
+      "desc2": "We handle all the necessary administration for employment, such as translation of documents, obtaining visas and work permits, employment contracts.",
+      "title5": " Employment Mediation",
+      "desc3": "  Save time and resources by utilizing our professional services in locating qualified workers from outside Europe.",
+      "title6": "Full-Service HR",
+      "desc4": " Comprehensive support in human resources management, starting from  recruitment through to full employee integration.",
+      "title7": "Worker Assignment Services",
+      "desc5": "  We offer worker placement for specific periods (such as projects or seasonal work) with the option to transition to permanent employment."
     },
-    "contactourteam":{
-      "title":"Contact our team",
-      "desc1":"Learn more about our professional services and",
-      "desc2":"find out how we can help you.",
-      "btn":"Contact us"
+    "contactourteam": {
+      "title": "Contact our team",
+      "desc1": "Learn more about our professional services and",
+      "desc2": "find out how we can help you.",
+      "btn": "Contact us"
     }
   },
-  "footer":{
-    "title":" We are at your disposal.",
-    "desc":"Contact us for any questions related to hiring workers from abroad. We will help you at any time."
+  "footer": {
+    "title": " We are at your disposal.",
+    "desc": "Contact us for any questions related to hiring workers from abroad. We will help you at any time."
   }
 }

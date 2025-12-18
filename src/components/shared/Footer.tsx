@@ -8,8 +8,11 @@ import {
   FaYoutube,
 } from "react-icons/fa";
 import { FaInstagram, FaXTwitter } from "react-icons/fa6";
+import { useTranslations } from "next-intl";
 
 const Footer = () => {
+  const t = useTranslations("footer");
+  const nav = useTranslations("nav");
   return (
     <footer className="mt-auto border-t bg-secondary pt-20">
       <div className="container grid grid-cols-1 items-center justify-center gap-28 lg:grid-cols-3">
@@ -26,22 +29,22 @@ const Footer = () => {
         </div>
         <div className="space-y-3">
           <h4 className="text-center text-xl font-bold text-white">
-            We are at your disposal.
+            {t("title")}
           </h4>
-          <p className="text-center text-white">
-            Contact us for any questions related to hiring workers from abroad.
-            We will help you at any time.
-          </p>
+          <p className="text-center text-white">{t("desc")}</p>
         </div>
         <div className="flex justify-center space-x-4 text-white lg:justify-end">
           <Link className="hover:underline" href="/">
-            Home
+            {nav("home")}
           </Link>
-          <Link className="hover:underline" href="/">
-            How to hire international talent?
+          <Link
+            className="hover:underline"
+            href="/how-to-hire-international-talent"
+          >
+            {nav("howToHire")}
           </Link>
-          <Link className="hover:underline" href="/">
-            Contact
+          <Link className="hover:underline" href="/contact">
+            {nav("contact")}
           </Link>
         </div>
       </div>

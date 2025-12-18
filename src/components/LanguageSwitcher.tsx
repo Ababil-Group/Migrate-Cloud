@@ -87,7 +87,7 @@ type Country = {
    Dataset (country → preferred locale)
 -----------------------------------------------------------------------------*/
 const COUNTRIES: ReadonlyArray<Country> = [
-  { name: "English (International)", flag: "🇬🇧", preferredLocale: "en" },
+  { name: "English (International)", flag: "en", preferredLocale: "en" },
   { name: "Armenia", flag: "🇦🇲", preferredLocale: "hy" },
   { name: "Austria", flag: "🇦🇹", preferredLocale: "de" },
   { name: "Belarus", flag: "🇧🇾", preferredLocale: "be" },
