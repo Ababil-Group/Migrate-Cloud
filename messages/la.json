@@ -61,6 +61,14 @@
     "cardDesc6": "Munus speciale opus est? Auxilium praebere possumus. Contactum nobis.",
     "btn": "Contactum nobis"
   },
+  "HireAForeigner": {
+    "title": "Conductio operarii externi",
+    "subtitle": "Processus conducendi operarios peritos ex alienis terris",
+    "desc1": "Intellege condiciones principales quas societas tua implere debet ut peritos internationales conducat.",
+    "desc2": "Negotium plus quam 6 menses operatur",
+    "desc3": "Saltem unus operarius plenus temporis per minimum 6 menses",
+    "desc4": "Vis laboris localis constituit saltem 25% totius operariorum numeri"
+  },
   "wowtohire": {
     "title": "Quomodo conducere talentum internationale?",
     "desc": "Gradatim te ducimus per processum conductionis operariorum internationalium:",

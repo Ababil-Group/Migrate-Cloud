@@ -61,6 +61,14 @@
     "cardDesc6": "Trebate određenu poziciju? Možemo pomoći. Kontaktirajte nas.",
     "btn": "Kontaktirajte nas"
   },
+  "HireAForeigner": {
+    "title": "Zapošljavanje stranog radnika",
+    "subtitle": "Proces zapošljavanja kvalificiranih radnika iz inozemstva",
+    "desc1": "Saznajte ključne uvjete koje vaša tvrtka mora ispuniti za zapošljavanje međunarodnih stručnjaka.",
+    "desc2": "Poslovanje traje više od 6 mjeseci",
+    "desc3": "Najmanje jedan zaposlenik s punim radnim vremenom minimalno 6 mjeseci",
+    "desc4": "Lokalna radna snaga čini najmanje 25% ukupnog broja zaposlenih"
+  },
   "wowtohire": {
     "title": "Kako zaposliti međunarodne talente?",
     "desc": "Vodimo vas kroz svaki korak procesa zapošljavanja međunarodnih radnika:",

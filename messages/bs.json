@@ -33,6 +33,7 @@
     "year3": "100%",
     "exp3": "Zadovoljstvo klijenata"
   },
+
   "whyChoose": {
     "title": "Zašto odabrati agenciju za regrutaciju?",
     "desc": "U MigrateCloud-u nudimo inovativna, brza i efikasna rješenja za pronalazak i zapošljavanje međunarodnih talenata.",
@@ -60,6 +61,14 @@
     "cardTitle6": "Prilagođene pozicije",
     "cardDesc6": "Trebate posebnu poziciju? Možemo pomoći. Kontaktirajte nas.",
     "btn": "Kontaktirajte nas"
+  },
+  "HireAForeigner": {
+    "title": "Zapošljavanje stranog radnika",
+    "subtitle": "Proces zapošljavanja kvalifikovanih radnika iz inostranstva",
+    "desc1": "Razumijte ključne zahtjeve koje vaša kompanija mora ispuniti za zapošljavanje međunarodnih profesionalaca.",
+    "desc2": "Poslovanje aktivno više od 6 mjeseci",
+    "desc3": "Najmanje jedan zaposleni na puno radno vrijeme najmanje 6 mjeseci",
+    "desc4": "Lokalna radna snaga čini najmanje 25% ukupnog broja zaposlenih"
   },
   "wowtohire": {
     "title": "Kako zaposliti međunarodne talente?",
@@ -89,6 +98,7 @@
     "cardTitle8": "Zadovoljstvo",
     "cardDesc8": "Naš cilj je da budu zadovoljni i poslodavci i radnici."
   },
+
   "bookconsultation": {
     "title": "Zakažite besplatnu konsultaciju.",
     "desc1": "Pouzdan i iskusan partner u zapošljavanju stranih radnika. Naši stručnjaci su spremni raditi s vama kako bi uklonili stres iz bilo kog imigracionog procesa, povećavajući vaše šanse za uspješan ishod.",
@@ -121,6 +131,7 @@
     "faq6": "Postoje li ograničenja pri zapošljavanju stranih radnika?",
     "ans6": "Određene profesije u Evropi su klasificirane kao visoko tražene, što omogućava poslodavcima da apliciraju za radne dozvole bez prolaska kroz test tržišta rada. Službeni spisak ovih profesija dostupan je kod nadležnih vlasti. Za pozicije koje nisu uključene na listu deficitarnih zanimanja, potreban je Test tržišta rada. Ovaj proces traje dvije sedmice i procjenjuje dostupnost lokalnih radnika. Ako se potvrdi nedostatak radne snage, aplikacije za strane radnike mogu se nastaviti u skladu s tim."
   },
+
   "contactus": {
     "title": "Kontakt",
     "subtitle": "Za sva pitanja na koja niste pronašli odgovor, slobodno nam se obratite, a mi ćemo vam sve detaljno objasniti.",
@@ -183,6 +194,7 @@
       "desc3": "Naš pojednostavljen regrutacijski proces ubrzava pronalaženje, upravljanje i zapošljavanje radnika, osiguravajući da pravovremeno zadovoljite svoje potrebe za radnom snagom."
     }
   },
+
   "medical": {
     "hero": {
       "title": "Zapošljavanje medicinskih radnika",
@@ -251,6 +263,7 @@
     "title5": "Usluge dodjele radnika",
     "desc5": "MigrateCloud pruža uslugu zapošljavanja radnika za određene periode, kao što su projekti ili sezone, uz opciju trajnog zapošljavanja."
   },
+
   "assignmentworkers": {
     "hero": {
       "title": "Usluge Dodjele Radnika",
@@ -449,6 +462,7 @@
       "ans4": "Mi vodimo poslodavce kroz cijeli proces prijave za radnu i boravaknu dozvolu, pomažemo u pripremi i podnošenju potrebnih dokumenata nadležnim vlastima i osiguravamo potpunu usklađenost sa zakonskim zahtjevima. Naše usluge uključuju kontinuirane savjete o radnim i imigracionim pitanjima, dok istovremeno pojednostavljuju administrativne zadatke. Ovaj pristup štedi vrijeme i resurse poslodavcima, osiguravajući nesmetan i efikasan proces zapošljavanja stranih radnika širom Evrope."
     }
   },
+
   "fullservicehr": {
     "hero": {
       "title": "Kompletne HR usluge",
@@ -488,6 +502,7 @@
       "ans3": "Shvatamo da svaka kompanija ima različite HR zahtjeve. Stoga, nudimo fleksibilnost u prilagođavanju našeg rješenja za kompletne HR usluge kako bismo zadovoljili vaše jedinstvene potrebe, bilo da to uključuje prilagođavanje komponenti usluge, ispunjavanje specifičnih zahtjeva ili prilagođavanje vašim poslovnim potrebama koje se razvijaju."
     }
   },
+
   "about": {
     "hireaforeigner": {
       "title": "Zaposlite stranca",

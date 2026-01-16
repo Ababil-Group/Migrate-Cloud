@@ -61,6 +61,14 @@
     "cardDesc6": "Potrebujete špecifickú rolu? Radi pomôžeme. Kontaktujte nás.",
     "btn": "Kontaktovať nás"
   },
+  "HireAForeigner": {
+    "title": "Zamestnávanie cudzinca",
+    "subtitle": "Proces zamestnávania kvalifikovaných pracovníkov zo zahraničia",
+    "desc1": "Pochopte kľúčové požiadavky, ktoré musí vaša spoločnosť splniť na zamestnanie medzinárodných odborníkov.",
+    "desc2": "Spoločnosť funguje viac ako 6 mesiacov",
+    "desc3": "Aspoň jeden zamestnanec na plný úväzok minimálne 6 mesiacov",
+    "desc4": "Miestna pracovná sila tvorí najmenej 25% celkového počtu zamestnancov"
+  },
   "wowtohire": {
     "title": "Ako najať medzinárodné talenty?",
     "desc": "Vedieme vás krok za krokom celým procesom náboru medzinárodných pracovníkov:",
@@ -127,6 +135,7 @@
     "time": "Pracovná doba: Po - Pia 8:00 - 16:00",
     "sendText": "Kontaktujte nás pre Odbornú Pomoc Máte Otázky? Sme tu, aby sme pomohli!"
   },
+
   "navigating": {
     "hero": {
       "title": "Navigácia v Imigračných Zákonoch pre Zamestnávateľov",
@@ -251,6 +260,7 @@
     "title5": "Služby priradenia pracovníkov",
     "desc5": "MigrateCloud poskytuje službu pre nábor pracovníkov na konkrétne obdobia, ako sú projekty alebo sezóny, s možnosťou trvalého zamestnania."
   },
+
   "assignmentworkers": {
     "hero": {
       "title": "Služby Prideľovania Pracovníkov",
@@ -488,6 +498,7 @@
       "ans3": "Chápeme, že každá spoločnosť má odlišné požiadavky na HR. Preto ponúkame flexibilitu pri prispôsobení nášho riešenia Komplexných HR Služieb vašim jedinečným potrebám, či už ide o úpravu komponentov služby, splnenie špecifických požiadaviek alebo prispôsobenie sa vašim vyvíjajúcim sa obchodným potrebám."
     }
   },
+
   "about": {
     "hireaforeigner": {
       "title": "Najmite si cudzinca",

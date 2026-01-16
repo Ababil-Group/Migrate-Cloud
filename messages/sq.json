@@ -61,6 +61,16 @@
     "cardDesc6": "Kërkoni një rol specifik? Ne mund të ndihmojmë. Na kontaktoni.",
     "btn": "Na kontaktoni"
   },
+
+  "HireAForeigner": {
+    "title": "Punësimi i një të huaji",
+    "subtitle": "Procesi i punësimit të punonjësve të kualifikuar nga jashtë",
+    "desc1": "Kuptoni kërkesat kryesore që kompania juaj duhet të plotësojë për të punësuar profesionistë ndërkombëtarë.",
+    "desc2": "Biznesi operon për më shumë se 6 muaj",
+    "desc3": "Të paktën një punonjës me kohë të plotë për minimum 6 muaj",
+    "desc4": "Forca punëtore lokale përbën të paktën 25% të totalit të punonjësve"
+  },
+
   "wowtohire": {
     "title": "Si të punësoni talente ndërkombëtare?",
     "desc": "Ju udhëheqim hap pas hapi në të gjithë procesin e punësimit të punonjësve ndërkombëtarë:",
@@ -127,6 +137,7 @@
     "time": "Orari i punës: E Hënë - E Premte 8:00 - 16:00",
     "sendText": "Na Kontaktoni për Ndihmë Eksperti Keni Pyetje? Ne jemi Këtu për të Ndihmuar!"
   },
+
   "navigating": {
     "hero": {
       "title": "Lundrimi në Ligjet e Imigrimit për Punëdhënësit",
@@ -251,6 +262,7 @@
     "title5": "Shërbime të Caktimit të Punëtorëve",
     "desc5": "MigrateCloud ofron një shërbim për punësimin e punëtorëve për periudha specifike, si projekte ose sezone, me mundësinë e punësimit të përhershëm."
   },
+
   "assignmentworkers": {
     "hero": {
       "title": "Shërbimet e Caktimit të Punëtorëve",
@@ -488,6 +500,7 @@
       "ans3": "Ne e kuptojmë që çdo kompani ka kërkesa të ndryshme HR. Prandaj, ne ofrojmë fleksibilitet në përshtatjen e zgjidhjes sonë të Shërbimit të Plotë HR për të përmbushur nevojat tuaja unike, qoftë duke përshtatur komponentët e shërbimit, plotësuar kërkesa specifike ose duke u përshtatur nevojave tuaja në evoluim të biznesit."
     }
   },
+
   "about": {
     "hireaforeigner": {
       "title": "Punësoni një të huaj",

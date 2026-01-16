@@ -45,6 +45,7 @@
     "question4": "Nicht vertraut mit gesetzlichen Vorschriften?",
     "ans4": "Wir vereinfachen den Prozess und stellen die Einhaltung aller Gesetze sicher."
   },
+
   "typeofemployees": {
     "title": "Welche Mitarbeiter können wir finden?",
     "cardTitle1": "Lagerarbeiter",
@@ -60,6 +61,14 @@
     "cardTitle6": "Individuelle Positionen",
     "cardDesc6": "Benötigen Sie eine spezielle Rolle? Wir helfen Ihnen gerne weiter.",
     "btn": "Kontaktieren Sie uns"
+  },
+  "HireAForeigner": {
+    "title": "Einen Ausländer einstellen",
+    "subtitle": "Der Prozess zur Einstellung qualifizierter Fachkräfte aus dem Ausland",
+    "desc1": "Verstehen Sie die wichtigsten Anforderungen, die Ihr Unternehmen erfüllen muss, um internationale Fachkräfte erfolgreich einzustellen.",
+    "desc2": "Unternehmen seit über 6 Monaten in Betrieb",
+    "desc3": "Mindestens ein Vollzeitmitarbeiter für mindestens 6 Monate",
+    "desc4": "Lokale Arbeitskräfte machen mindestens 25 % der Gesamtbelegschaft aus"
   },
   "wowtohire": {
     "title": "Wie stellt man internationale Talente ein?",
@@ -106,6 +115,7 @@
     "item6": "Geprüfte Fachkräfte",
     "btn": "Kontaktieren Sie uns"
   },
+
   "faq": {
     "title": "Häufig gestellte Fragen",
     "faq1": "Wer ist für die Unterbringung zuständig?",
@@ -127,6 +137,7 @@
     "time": "Öffnungszeiten: Mo - Fr 8:00 - 16:00 Uhr",
     "sendText": "Kontaktieren Sie uns für fachkundige Unterstützung Haben Sie Fragen? Wir sind hier, um zu helfen!"
   },
+
   "navigating": {
     "hero": {
       "title": "Arbeitgeber: Navigieren im Einwanderungsrecht",
@@ -211,6 +222,7 @@
       "desc3": "Wir beschleunigen den Prozess der Beschaffung, Verwaltung und Einstellung von Arbeitskräften."
     }
   },
+
   "construction": {
     "hero": {
       "title": "Vermittlung von Bauarbeitern",
@@ -488,6 +500,7 @@
       "ans3": "Wir verstehen, dass jedes Unternehmen unterschiedliche HR-Anforderungen hat. Daher bieten wir Flexibilität bei der Anpassung unserer Full-Service HR-Lösung an Ihre individuellen Bedürfnisse, sei es durch Anpassung von Servicekomponenten, Erfüllung spezifischer Anforderungen oder Anpassung an sich entwickelnde Geschäftsanforderungen."
     }
   },
+
   "about": {
     "hireaforeigner": {
       "title": "Einen Ausländer einstellen",

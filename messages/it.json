@@ -61,6 +61,14 @@
     "cardDesc6": "Hai bisogno di un ruolo specifico? Possiamo aiutarti. Contattaci.",
     "btn": "Contattaci"
   },
+  "HireAForeigner": {
+    "title": "Assumere uno straniero",
+    "subtitle": "Il processo di assunzione di lavoratori qualificati dall'estero",
+    "desc1": "Comprendi i requisiti chiave che la tua azienda deve soddisfare per assumere professionisti internazionali.",
+    "desc2": "Attività operativa da oltre 6 mesi",
+    "desc3": "Almeno un dipendente a tempo pieno per un minimo di 6 mesi",
+    "desc4": "Forza lavoro locale pari ad almeno il 25% dei dipendenti totali"
+  },
   "wowtohire": {
     "title": "Come assumere talenti internazionali?",
     "desc": "Ti guidiamo passo dopo passo nel processo di assunzione di lavoratori internazionali:",
@@ -127,6 +135,7 @@
     "time": "Orari di apertura: Lun - Ven 8:00 - 16:00",
     "sendText": "Contattaci per un'assistenza esperta Hai domande? Siamo qui per aiutare!"
   },
+
   "navigating": {
     "hero": {
       "title": "Navigare nelle Leggi sull'Immigrazione per i Datori di Lavoro",
@@ -251,6 +260,7 @@
     "title5": "Servizi di distacco lavoratori",
     "desc5": "MigrateCloud fornisce un servizio per l'assunzione di lavoratori per periodi specifici, come progetti o stagioni, con l'opzione di un'occupazione permanente."
   },
+
   "assignmentworkers": {
     "hero": {
       "title": "Servizi di Assegnazione Lavoratori",
@@ -488,6 +498,7 @@
       "ans3": "Comprendiamo che ogni azienda ha requisiti HR distinti. Pertanto, offriamo flessibilità nella personalizzazione della nostra soluzione Servizi HR Completi per soddisfare le tue esigenze uniche, sia che ciò comporti la regolazione dei componenti del servizio, l'adempimento di requisiti specifici o l'adattamento alle tue esigenze aziendali in evoluzione."
     }
   },
+
   "about": {
     "hireaforeigner": {
       "title": "Assumi uno straniero",

@@ -61,6 +61,15 @@
     "cardDesc6": "Potrzebujesz konkretnej roli? Możemy pomóc. Skontaktuj się z nami.",
     "btn": "Skontaktuj się z nami"
   },
+
+  "HireAForeigner": {
+    "title": "Zatrudnianie cudzoziemca",
+    "subtitle": "Proces zatrudniania wykwalifikowanych pracowników z zagranicy",
+    "desc1": "Poznaj kluczowe wymagania, które Twoja firma musi spełnić, aby zatrudnić międzynarodowych specjalistów.",
+    "desc2": "Firma działa ponad 6 miesięcy",
+    "desc3": "Co najmniej jeden pracownik pełnoetatowy przez minimum 6 miesięcy",
+    "desc4": "Lokalna siła robocza stanowi co najmniej 25% wszystkich pracowników"
+  },
   "wowtohire": {
     "title": "Jak zatrudniać międzynarodowe talenty?",
     "desc": "Prowadzimy Cię krok po kroku przez cały proces zatrudniania pracowników międzynarodowych:",
@@ -121,12 +130,14 @@
     "faq6": "Czy istnieją ograniczenia w zatrudnianiu pracowników z zagranicy?",
     "ans6": "Niektóre zawody w Europie są sklasyfikowane jako deficytowe, co pozwala pracodawcom ubiegać się o pozwolenia na pracę bez przechodzenia testu rynku pracy. Oficjalna lista tych zawodów jest dostępna u odpowiednich władz. W przypadku stanowisk nieujętych na liście zawodów deficytowych wymagany jest Test Rynku Pracy. Proces ten trwa dwa tygodnie i ocenia dostępność pracowników lokalnych. Jeśli potwierdzi się niedobór siły roboczej, wnioski o pracowników zagranicznych mogą być rozpatrywane odpowiednio."
   },
+
   "contactus": {
     "title": "Kontakt",
     "subtitle": "W przypadku pytań, na które nie znalazłeś odpowiedzi, śmiało skontaktuj się z nami, a my wyjaśnimy wszystko szczegółowo.",
     "time": "Godziny otwarcia: Pn - Pt 8:00 - 16:00",
     "sendText": "Skontaktuj się z nami po fachową pomoc Masz pytania? Jesteśmy tutaj, aby pomóc!"
   },
+
   "navigating": {
     "hero": {
       "title": "Praca z Przepisami Imigracyjnymi dla Pracodawców",
@@ -251,6 +262,7 @@
     "title5": "Usługi Zlecenia Pracowników",
     "desc5": "MigrateCloud świadczy usługę wynajmowania pracowników na określone okresy, np. na projekty lub sezony, z opcją zatrudnienia stałego."
   },
+
   "assignmentworkers": {
     "hero": {
       "title": "Usługi Przydzielania Pracowników",
@@ -488,6 +500,7 @@
       "ans3": "Rozumiemy, że każda firma ma inne wymagania HR. Dlatego oferujemy elastyczność w dostosowywaniu naszego rozwiązania Kompleksowej Obsługi HR do Twoich unikalnych potrzeb, niezależnie od tego, czy chodzi o dostosowanie komponentów usługi, spełnienie określonych wymagań czy adaptację do zmieniających się potrzeb biznesowych."
     }
   },
+
   "about": {
     "hireaforeigner": {
       "title": "Zatrudnij cudzoziemca",

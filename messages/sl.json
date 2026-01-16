@@ -61,6 +61,14 @@
     "cardDesc6": "Potrebujete poseben kader? Lahko pomagamo. Kontaktirajte nas.",
     "btn": "Kontaktirajte nas"
   },
+  "HireAForeigner": {
+    "title": "Zaposlovanje tujega delavca",
+    "subtitle": "Postopek zaposlovanja kvalificiranih delavcev iz tujine",
+    "desc1": "Razumite ključne zahteve, ki jih mora vaše podjetje izpolnjevati za zaposlitev mednarodnih strokovnjakov.",
+    "desc2": "Podjetje posluje več kot 6 mesecev",
+    "desc3": "Vsaj en redno zaposlen delavec najmanj 6 mesecev",
+    "desc4": "Lokalna delovna sila predstavlja vsaj 25% vseh zaposlenih"
+  },
   "wowtohire": {
     "title": "Kako najeti mednarodne talente?",
     "desc": "Vodimo vas korak za korakom skozi celoten postopek zaposlovanja mednarodnih delavcev:",
@@ -127,6 +135,7 @@
     "time": "Delovni čas: Ponedeljek - Petek 8:00 - 16:00",
     "sendText": "Kontaktirajte nas za Strokovno Pomoc Imate Vprašanja? Tu smo, da vam pomagamo!"
   },
+
   "navigating": {
     "hero": {
       "title": "Kako se spoprijeti z imigracijsko zakonodajo za delodajalce",
@@ -251,6 +260,7 @@
     "title5": "Storitve dodeljevanja delavcev",
     "desc5": "MigrateCloud ponuja storitev zaposlovanja delavcev za določena obdobja, kot so projekti ali sezone, z možnostjo trajne zaposlitve."
   },
+
   "assignmentworkers": {
     "hero": {
       "title": "Storitve Dodeljevanja Delavcev",

@@ -45,6 +45,8 @@
     "question4": "Etkö tunne lakisääteisiä vaatimuksia?",
     "ans4": "Teemme prosessista helpon ja varmistamme kaikkien lakien noudattamisen."
   },
+
+
   "typeofemployees": {
     "title": "Millaisia työntekijöitä voimme löytää?",
     "cardTitle1": "Varastotyöntekijät",
@@ -61,6 +63,15 @@
     "cardDesc6": "Tarvitsetko tietyn roolin? Me voimme auttaa. Ota yhteyttä.",
     "btn": "Ota yhteyttä"
   },
+  "HireAForeigner": {
+  "title": "Ulkomaalaisen työntekijän palkkaaminen",
+  "subtitle": "Pätevien työntekijöiden palkkaus ulkomailta",
+  "desc1": "Ymmärrä keskeiset vaatimukset, jotka yrityksesi on täytettävä palkatakseen kansainvälisiä ammattilaisia.",
+  "desc2": "Yritys toiminut yli 6 kuukautta",
+  "desc3": "Vähintään yksi kokopäiväinen työntekijä vähintään 6 kuukauden ajan",
+  "desc4": "Paikallisen työvoiman osuus vähintään 25 % kaikista työntekijöistä"
+}
+,
   "wowtohire": {
     "title": "Kuinka palkata kansainvälistä työvoimaa?",
     "desc": "Opastamme sinua askel askeleelta kansainvälisten työntekijöiden palkkaamisessa:",
@@ -95,6 +106,7 @@
     "decs2": "Ota yhteyttä tiimiimme tänään saadaksesi lisätietoja palveluistamme ja ottaaksesi ensimmäisen askeleen onnistunutta palkkaamista kohti.",
     "btn": "Ota yhteyttä"
   },
+
   "whychooseus": {
     "title": "Miksi valita meidät?",
     "desc": "MigrateCloud on luotettava kumppanisi kansainvälisten huippulahjakkuuksien palkkaamisessa. Asiantuntijamme ovat valmiita yksinkertaistamaan maahanmuuttoprosessia ja varmistamaan onnistuneet tulokset.",
@@ -155,6 +167,8 @@
       "desc3": "Nopeutamme rekrytointi- ja hallintoprosesseja, mikä tekee rekrytoinnista saumattoman."
     }
   },
+
+
   "seasonal": {
     "hero": {
       "title": "Kausityöntekijöiden palkkaaminen",
@@ -251,6 +265,7 @@
     "title5": "Työntekijöiden vuokrauspalvelut",
     "desc5": "MigrateCloud tarjoaa palvelun työntekijöiden palkkaamiseksi määräajaksi, kuten projekteihin tai kausityöhön, mahdollisuutena pysyvä työllistyminen."
   },
+
   "assignmentworkers": {
     "hero": {
       "title": "Työntekijöiden Vuokrauspalvelut",
@@ -488,6 +503,7 @@
       "ans3": "Ymmärrämme, että jokaisella yrityksellä on omat HR-vaatimuksensa. Siksi tarjoamme joustavuutta kokonaisvaltaisen HR-ratkaisumme mukauttamisessa yksilöllisiin tarpeisiisi, olipa kyse palvelukomponenttien säätämisestä, erityisvaatimusten täyttämisestä tai sopeutumisesta yrityksesi muuttuviin liiketoimintatarpeisiin."
     }
   },
+  
   "about": {
     "hireaforeigner": {
       "title": "Palkkaa ulkomaalainen",

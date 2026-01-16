@@ -61,6 +61,14 @@
     "cardDesc6": "Ai nevoie de un rol specific? Te putem ajuta. Contactează-ne.",
     "btn": "Contactează-ne"
   },
+  "HireAForeigner": {
+    "title": "Angajarea unui lucrător străin",
+    "subtitle": "Procesul de angajare a lucrătorilor calificați din străinătate",
+    "desc1": "Înțelegeți cerințele cheie pe care compania dvs. trebuie să le îndeplinească pentru a angaja profesioniști internaționali.",
+    "desc2": "Afacerea este activă de peste 6 luni",
+    "desc3": "Cel puțin un angajat cu normă întreagă pentru minimum 6 luni",
+    "desc4": "Forța de muncă locală reprezintă cel puțin 25% din totalul angajaților"
+  },
   "wowtohire": {
     "title": "Cum să angajezi talente internaționale?",
     "desc": "Te ghidăm pas cu pas prin întregul proces de angajare a talentelor internaționale:",
@@ -89,6 +97,7 @@
     "cardTitle8": "Satisfacție",
     "cardDesc8": "Obiectivul nostru este satisfacția atât a angajatorilor, cât și a angajaților."
   },
+
   "bookconsultation": {
     "title": "Rezervă Consultația Ta Gratuită.",
     "desc1": "Partener de încredere și cu experiență în angajarea muncitorilor străini. Experții noștri sunt gata să lucreze cu tine pentru a elimina stresul din orice proces de imigrare, crescându-ți șansele de succes.",
@@ -127,6 +136,7 @@
     "time": "Program de lucru: Lun - Vineri 8:00 - 16:00",
     "sendText": "Contactează-ne pentru Asistență Expertă Ai Întrebări? Suntem Aici Să Ajutăm!"
   },
+
   "navigating": {
     "hero": {
       "title": "Navigarea Legilor privind Imigrația pentru Angajatori",
@@ -251,6 +261,7 @@
     "title5": "Servicii de Împrumut de Personal",
     "desc5": "MigrateCloud oferă un serviciu de angajare a lucrătorilor pentru perioade specifice, cum ar fi proiecte sau sezoane, cu opțiunea de angajare permanentă."
   },
+
   "assignmentworkers": {
     "hero": {
       "title": "Servicii de Detașare a Lucrătorilor",
@@ -488,6 +499,7 @@
       "ans3": "Înțelegem că fiecare companie are cerințe HR distincte. Prin urmare, oferim flexibilitate în personalizarea soluției noastre de Servicii HR Complete pentru a vă satisface nevoile unice, fie că implică ajustarea componentelor serviciului, îndeplinirea unor cerințe specifice sau adaptarea la cerințele de business în evoluție."
     }
   },
+
   "about": {
     "hireaforeigner": {
       "title": "Angajează un străin",

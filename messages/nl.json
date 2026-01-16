@@ -61,6 +61,14 @@
     "cardDesc6": "Heeft u een specifieke rol nodig? Wij kunnen helpen. Neem contact met ons op.",
     "btn": "Neem contact op"
   },
+  "HireAForeigner": {
+    "title": "Een buitenlander aannemen",
+    "subtitle": "Het proces van het aannemen van geschoolde werknemers uit het buitenland",
+    "desc1": "Begrijp de belangrijkste vereisten waaraan uw bedrijf moet voldoen om internationale professionals in dienst te nemen.",
+    "desc2": "Bedrijf langer dan 6 maanden actief",
+    "desc3": "Minstens één fulltime werknemer voor minimaal 6 maanden",
+    "desc4": "Lokale beroepsbevolking van minimaal 25% van het totale personeel"
+  },
   "wowtohire": {
     "title": "Hoe internationaal talent aan te nemen?",
     "desc": "Wij begeleiden u stap voor stap door het proces van het aannemen van internationaal talent:",
@@ -127,6 +135,7 @@
     "time": "Openingstijden: Ma - Vr 8:00 - 16:00",
     "sendText": "Neem Contact met ons op voor Deskundige Hulp Heeft u Vragen? We staan voor u klaar!"
   },
+
   "navigating": {
     "hero": {
       "title": "Navigeren in Immigratiewetten voor Werkgevers",
@@ -251,6 +260,7 @@
     "title5": "Diensten voor Detachering van Werknemers",
     "desc5": "MigrateCloud biedt een service voor het inhuren van werknemers voor specifieke periodes, zoals projecten of seizoenen, met de optie voor vast dienstverband."
   },
+
   "assignmentworkers": {
     "hero": {
       "title": "Uitzendkrachten Diensten",
@@ -488,6 +498,7 @@
       "ans3": "We begrijpen dat elk bedrijf verschillende HR-behoeften heeft. Daarom bieden we flexibiliteit bij het aanpassen van onze Volledige HR-Dienstverlening oplossing aan uw unieke behoeften, of dat nu gaat om het aanpassen van serviceonderdelen, het vervullen van specifieke vereisten of het inspelen op uw veranderende bedrijfsbehoeften."
     }
   },
+
   "about": {
     "hireaforeigner": {
       "title": "Huur een buitenlander in",

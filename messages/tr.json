@@ -61,6 +61,14 @@
     "cardDesc6": "Spesifik bir rol mü arıyorsunuz? Size yardımcı olabiliriz. Bizimle iletişime geçin.",
     "btn": "İletişime geçin"
   },
+  "HireAForeigner": {
+    "title": "Yabancı Çalışan İstihdam Etme",
+    "subtitle": "Yurt dışından nitelikli çalışan işe alma süreci",
+    "desc1": "Şirketinizin uluslararası profesyonelleri istihdam edebilmesi için karşılaması gereken temel gereksinimleri öğrenin.",
+    "desc2": "6 aydan uzun süredir faaliyette olan işletme",
+    "desc3": "En az 6 ay boyunca en az bir tam zamanlı çalışan",
+    "desc4": "Yerel iş gücü toplam çalışanların en az %25’ini oluşturmalıdır"
+  },
   "wowtohire": {
     "title": "Uluslararası yetenek nasıl işe alınır?",
     "desc": "Uluslararası çalışanları işe alma sürecinin her adımında size rehberlik ediyoruz:",
@@ -127,6 +135,7 @@
     "time": "Çalışma Saatleri: Pzt - Cuma 8:00 - 16:00",
     "sendText": "Uzman Desteği İçin Bize Ulaşın Sorularınız mı var? Yardım Etmek İçin Buradayız!"
   },
+
   "navigating": {
     "hero": {
       "title": "İşverenler için Göçmenlik Yasalarında Gezinme",
@@ -251,6 +260,7 @@
     "title5": "İşçi Tahsis Hizmetleri",
     "desc5": "MigrateCloud, belirli dönemler için, projeler veya sezonlar gibi, kalıcı istihdam seçeneği ile işçi kiralamak için bir hizmet sunar."
   },
+
   "assignmentworkers": {
     "hero": {
       "title": "İşçi Atama Hizmetleri",

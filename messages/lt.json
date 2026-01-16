@@ -61,6 +61,14 @@
     "cardDesc6": "Reikia konkrečios pozicijos? Mes galime padėti. Susisiekite su mumis.",
     "btn": "Susisiekite"
   },
+  "HireAForeigner": {
+    "title": "Užsieniečio įdarbinimas",
+    "subtitle": "Kvalifikuotų darbuotojų samdymo iš užsienio procesas",
+    "desc1": "Supraskite pagrindinius reikalavimus, kuriuos jūsų įmonė turi atitikti samdydama tarptautinius specialistus.",
+    "desc2": "Įmonė veikia ilgiau nei 6 mėnesius",
+    "desc3": "Bent vienas pilnu etatu dirbantis darbuotojas mažiausiai 6 mėnesius",
+    "desc4": "Vietinė darbo jėga sudaro ne mažiau kaip 25% visų darbuotojų"
+  },
   "wowtohire": {
     "title": "Kaip įdarbinti tarptautinius talentus?",
     "desc": "Mes žingsnis po žingsnio vedame jus per tarptautinių darbuotojų įdarbinimo procesą:",
@@ -127,6 +135,7 @@
     "time": "Darbo laikas: Pirm. - Penkt. 8:00 - 16:00",
     "sendText": "Susisiekite su mumis dėl ekspertinės pagalbos Turite klausimų? Mes čia tam, kad padėtume!"
   },
+
   "navigating": {
     "hero": {
       "title": "Imigracijos įstatymų naršymas darbdaviams",
@@ -251,6 +260,7 @@
     "title5": "Darbuotojų skyrimo paslaugos",
     "desc5": "MigrateCloud teikia paslaugą darbuotojams samdyti tam tikriems laikotarpiams, pvz., projektams ar sezonams, su galimybe įgyti nuolatinį darbą."
   },
+
   "assignmentworkers": {
     "hero": {
       "title": "Darbuotojų Skyrimo Paslaugos",

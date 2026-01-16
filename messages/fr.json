@@ -45,6 +45,14 @@
     "question4": "Peu familier avec les réglementations légales ?",
     "ans4": "Naviguer dans les lois sur l’immigration et le travail peut être complexe. Nous simplifions la procédure, assurons le respect de toutes les réglementations et gérons la documentation nécessaire."
   },
+  "HireAForeigner": {
+    "title": "Embaucher un travailleur étranger",
+    "subtitle": "Le processus d'embauche de travailleurs qualifiés de l'étranger",
+    "desc1": "Comprenez les exigences clés que votre entreprise doit respecter pour employer des professionnels internationaux.",
+    "desc2": "Entreprise opérationnelle depuis plus de 6 mois",
+    "desc3": "Au moins un employé à temps plein depuis un minimum de 6 mois",
+    "desc4": "Main-d'œuvre locale représentant au moins 25 % du total des employés"
+  },
   "typeofemployees": {
     "title": "Quels types de travailleurs pouvons-nous trouver ?",
     "cardTitle1": "Employés d’entrepôt",

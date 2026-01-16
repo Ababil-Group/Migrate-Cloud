@@ -61,6 +61,14 @@
     "cardDesc6": "Need a specific role? We can help. Contact us for inquiries.",
     "btn": "Contact us"
   },
+  "HireAForeigner": {
+    "title": "Hire a Foreigner",
+    "subtitle": "The Process of Hiring Skilled Workers from Abroad",
+    "desc1": "Understand the key requirements your company must meet to successfully employ international professionals.",
+    "desc2": "Business Operational for Over 6 Months",
+    "desc3": "At Least One Full-Time Employee for a Minimum of 6 Months",
+    "desc4": "Local Workforce Comprising at Least 25% of Total Employees"
+  },
   "wowtohire": {
     "title": "How to hire international talent?",
     "desc": "We guide you step-by-step through the process of hiring international talent:",
@@ -107,6 +115,7 @@
     "item6": "Verified professionals",
     "btn": "Contact us"
   },
+
   "faq": {
     "title": "Frequently Asked Questions",
     "faq1": " Who is responsible for providing accommodation?",
@@ -156,6 +165,7 @@
       "desc3": " We accelerate the hiring and administrative processes, making recruitment seamless."
     }
   },
+
   "seasonal": {
     "hero": {
       "title": "Employment of Seasonal Workers",
@@ -212,6 +222,7 @@
       "desc3": " We expedite the process of sourcing, managing, and hiring workers."
     }
   },
+
   "construction": {
     "hero": {
       "title": " Employment of Construction Workers",
@@ -252,6 +263,7 @@
     "title5": "Worker Assignment Services",
     "desc5": "  MigrateCloud provides a service for hiring workers for specific  periods, such as projects or seasons, with the option for permanent employment."
   },
+
   "assignmentworkers": {
     "hero": {
       "title": "Worker Assignment Services",

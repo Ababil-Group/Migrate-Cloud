@@ -61,6 +61,14 @@
     "cardDesc6": "Għandek bżonn rwol speċifiku? Nistgħu ngħinuk. Ikkuntattjana.",
     "btn": "Ikkuntattjana"
   },
+  "HireAForeigner": {
+    "title": "Kiri ta’ Ħaddiem Barrani",
+    "subtitle": "Il-proċess ta’ kiri ta’ ħaddiema kwalifikati minn barra",
+    "desc1": "Ifhem ir-rekwiżiti ewlenin li l-kumpanija tiegħek trid tissodisfa biex timpjega professjonisti internazzjonali.",
+    "desc2": "Negozju li ilu jopera għal aktar minn 6 xhur",
+    "desc3": "Mill-inqas impjegat wieħed full-time għal minimu ta’ 6 xhur",
+    "desc4": "Il-forza tax-xogħol lokali tifforma mill-inqas 25% tal-impjegati kollha"
+  },
   "wowtohire": {
     "title": "Kif tikri talent internazzjonali?",
     "desc": "Aħna ngħadduk pass pass fil-proċess kollu ta’ reklutaġġ ta’ ħaddiema internazzjonali:",
@@ -127,6 +135,7 @@
     "time": "Ħinijiet tal-ftuħ: It-Tnejn - Il-Ġimgħa 8:00 - 16:00",
     "sendText": "Ikkuntattjana għal Għajnuna Esperta Għandek Mistoqsijiet? Aħna Hawnhekk Biex Ngħinu!"
   },
+
   "navigating": {
     "hero": {
       "title": "In-navigazzjoni tal-Liġi tal-Immigrazzjoni għall-Impjegaturi",
@@ -251,6 +260,7 @@
     "title5": "Servizzi ta' Assignjar tal-Ħaddiema",
     "desc5": "MigrateCloud jipprovdi servizz għakiri ta' ħaddiema għal perjodi speċifiċi, bħal proġetti jew staġuni, bl-għażla ta' impjieg permanenti."
   },
+
   "assignmentworkers": {
     "hero": {
       "title": "Servizzi ta' Assignazzjoni ta' Ħaddiema",
@@ -488,6 +498,7 @@
       "ans3": "Aħna nifhmu li kull kumpanija għandha rekwiżiti differenti tar-RU. Għalhekk, noffru flessibilità fl-adeġwjar tas-soluzzjoni tagħna tas-Servizz Sħiħ għar-RU biex tilħaq il-bżonnijiet unici tiegħek, kemm jekk din tinvolvi l-aġġustar tal-komponenti tas-servizz, is-sodisfazzjon ta' rekwiżiti speċifiċi jew l-adattament għat-talbiet tan-negozju tiegħek li qed jevolvu."
     }
   },
+
   "about": {
     "hireaforeigner": {
       "title": "Ikkontrattaja Barrani",

@@ -61,6 +61,14 @@
     "cardDesc6": "Treba vam određena pozicija? Možemo pomoći. Kontaktirajte nas.",
     "btn": "Kontaktirajte nas"
   },
+  "HireAForeigner": {
+    "title": "Zapošljavanje stranog radnika",
+    "subtitle": "Proces zapošljavanja kvalifikovanih radnika iz inostranstva",
+    "desc1": "Razumite ključne zahteve koje vaša kompanija mora ispuniti kako bi zaposlila međunarodne profesionalce.",
+    "desc2": "Poslovanje traje duže od 6 meseci",
+    "desc3": "Najmanje jedan zaposleni na puno radno vreme najmanje 6 meseci",
+    "desc4": "Lokalna radna snaga čini najmanje 25% ukupnog broja zaposlenih"
+  },
   "wowtohire": {
     "title": "Kako zaposliti međunarodne talente?",
     "desc": "Vodimo vas korak po korak kroz ceo proces zapošljavanja međunarodnih radnika:",
@@ -127,6 +135,7 @@
     "time": "Радно време: Пон - Пет 8:00 - 16:00",
     "sendText": "Контактирајте нас за стручну помоћ Имате питања? Ту смо да помогнемо!"
   },
+
   "navigating": {
     "hero": {
       "title": "Навигација имиграционим законима за послодавце",
@@ -251,6 +260,7 @@
     "title5": "Услуге доделе радника",
     "desc5": "MigrateCloud пружа услугу запошљавања радника за одређена раздобља, као што су пројекти или сезоне, уз опцију трајног запошљавања."
   },
+
   "assignmentworkers": {
     "hero": {
       "title": "Услуге Доделе Радника",
@@ -488,6 +498,7 @@
       "ans3": "Shvatamo da svaka kompanija ima različite HR zahteve. Stoga, nudimo fleksibilnost u prilagođavanju našeg rešenja za kompletne HR usluge kako bismo zadovoljili vaše jedinstvene potrebe, bilo da to uključuje prilagođavanje komponenti usluge, ispunjavanje specifičnih zahteva ili prilagođavanje vašim poslovnim potrebama koje se razvijaju."
     }
   },
+
   "about": {
     "hireaforeigner": {
       "title": "Запослите странца",
